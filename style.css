@@ -24,6 +24,9 @@ body{
     font-family: 'Roboto', sans-serif;
     background: lightskyblue url('bg.jpg'); /* Set background color & image */
     color: #fff;
-
+    display: flex; /* Align items */
+    flex-direction: column; /* Align vertically */
+    justify-content: flex-end; /* Push items to bottom */
+    height: 100vh; 
 }
 
