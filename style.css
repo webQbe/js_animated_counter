@@ -1,0 +1,29 @@
+/* LOAD ROBOTO FONT */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+/* Add Reset */
+* {
+
+    box-sizing: border-box;
+
+     /* Ensures padding and borders are included within the element's 
+    specified width and height, making layout calculations more 
+    predictable. */
+
+    margin: 0;
+    padding: 0;
+
+    /* Remove margin & padding */
+
+}
+
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    background: lightskyblue url('bg.jpg'); /* Set background color & image */
+    color: #fff;
+
+}
+
