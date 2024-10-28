@@ -39,9 +39,51 @@ body{
     /* 
         When you set overflow: auto; on an element, it means:
 
-        The browser will add scrollbars only if needed—that is, only if the content overflows the element’s box.
+        The browser will add scrollbars only if needed—that is, only if the content 
+        overflows the element’s box.
         If the content fits within the element’s box, no scrollbars will appear.
     
     */
 }
 
+
+/* Move Header to Center of Page */
+header{
+
+    flex: 1;    
+    height: 100%;
+    display: flex; /* move to middle both x & y directions */
+    align-items: center;
+    justify-content: center;
+
+
+    /*  flex: 1; 
+        is a shorthand for flex-grow: 1;, flex-shrink: 1;, and flex-basis: 0%. 
+        
+        It essentially means:
+
+        flex-grow: 1;: 
+        The header will expand to take up any available space in the flex container.
+
+        flex-shrink: 1;: 
+        The header will shrink if necessary, to prevent overflow if there’s not enough space.
+
+        flex-basis: 0%;: 
+        The initial size of the header is calculated as 0% of the container, 
+        meaning it will only take up space proportional to the space left over 
+        after other items and paddings.
+
+        If there are multiple flex items with flex: 1; in the container, 
+        they will each take an equal share of the available space. 
+        If header is the only item with flex: 1;, it will stretch to 
+        fill the available space.
+    
+     */
+
+}
+
+header h1{
+
+    font-size: 60px;
+
+}
