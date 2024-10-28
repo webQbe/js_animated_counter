@@ -30,3 +30,18 @@ body{
     height: 100vh; 
 }
 
+.container{
+
+    max-width: 1100px;
+    margin: 0 auto; /* Move to center */
+    overflow: auto;
+
+    /* 
+        When you set overflow: auto; on an element, it means:
+
+        The browser will add scrollbars only if needed—that is, only if the content overflows the element’s box.
+        If the content fits within the element’s box, no scrollbars will appear.
+    
+    */
+}
+
