@@ -47,9 +47,11 @@ body{
 }
 
 
-/* Move Header to Center of Page */
+/* Style for Header */
+
 header{
 
+    /* Move Header to Center of Page */
     flex: 1;    
     height: 100%;
     display: flex; /* move to middle both x & y directions */
@@ -85,5 +87,40 @@ header{
 header h1{
 
     font-size: 60px;
+
+}
+
+/* Style for Counters */
+
+.counters {
+
+    background: #0f479a;
+    color:#fff;
+    padding: 40px 20px; /* Top-Bottom & L-R */
+    border-top: 3px lightskyblue solid;
+}
+
+.counters .container {
+
+    display: grid; /* Set as parent to grid items */ 
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr); /* 4 even columns */ 
+    text-align: center;
+
+}
+
+/* Style Icons */
+.counters i {
+
+    color: lightskyblue;
+    margin-bottom: 5px;
+
+}
+
+/* Style label & number text */
+.counters .counter{
+
+    font-size: 45px;
+    margin: 10px 0; /* Top-Bottom 10px margin */
 
 }
