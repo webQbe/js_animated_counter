@@ -29,7 +29,8 @@ counters.forEach(counter => {
             // When we've not reached Target yet
             // Calculate Display Value by 
             // Adding Increment to Current Display Value
-            counter.innerText = count + step;
+            // Round up to get whole numbers
+            counter.innerText = Math.ceil(count + step);
 
             // Run updateCount() every 1ms
             setTimeout(updateCount, 1);
