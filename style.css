@@ -124,3 +124,24 @@ header h1{
     margin: 10px 0; /* Top-Bottom 10px margin */
 
 }
+
+
+/* Make Responsive */
+
+/* For screens below 700px width */
+@media(max-width: 700px){
+
+    .counters .container {
+
+        /* Limit to 2 Columns */
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    /* Style bottom borders of 1st & 2nd counter divs */
+    .counters .container > div:nth-of-type(1), .counters .container > div:nth-of-type(2){
+        border-bottom: 1px lightskyblue solid;
+        padding-bottom: 20px;
+    }
+
+}
