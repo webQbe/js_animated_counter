@@ -18,8 +18,10 @@ counters.forEach(counter => {
         // Get Increment Count to Reach Target
         const step = target / speed;
 
-        console.log(target);
-        console.log(step);
+        // Log Current Counts 
+        console.log(count);
+
+
 
         // Check if We've reached Target 
         if(count < target){
