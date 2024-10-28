@@ -2,7 +2,7 @@
 const counters = document.querySelectorAll('.counter');
 
 // Set Count Speed
-const speed = 200;
+const speed = 2000;
 
 // Loop through Counters Array
 counters.forEach(counter => {
